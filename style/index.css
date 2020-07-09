@@ -1,5 +1,3 @@
-/* Add CSS styling here */
-
 /* INDEX CSS */
 
 /* PAGE CSS */
@@ -32,7 +30,9 @@ h1 {
     }
 
     #home {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
@@ -45,7 +45,9 @@ h1 {
     }
 
     #about {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
@@ -58,7 +60,9 @@ h1 {
     }
 
     #contact {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
@@ -71,7 +75,9 @@ h1 {
     }
 
     #projects {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
@@ -187,13 +193,11 @@ h1 {
 
 
     #fcontact {
-      display: flex; 
-      width: 6rem;
-      height: 1.5rem;
-      padding: .3rem;
-      padding-left: 1.4rem;
-      padding-top: 1rem;
-      margin-left: 40rem;
+      display: flex;
+      align-items: center;
+      width: 6%;
+      padding-left: .2rem;
+      margin-left: 41rem;
       background: #6C83A9;
       border-radius: 2px;
       color: white;
@@ -203,52 +207,51 @@ h1 {
       box-shadow: 5px 5px 5px #9AA0AB;
     }
 
-.social {
-  margin-top: 1rem;
-  margin-left: 38rem;
-  margin-right: 10rem;
-  background: #C5CCD7;
-}
+    .social {
+      margin-top: 1rem;
+      margin-left: 38rem;
+      margin-right: 10rem;
+      background: #C5CCD7;
+    }
 
-.fa {
-  padding: 1rem;
-  padding-bottom: 1.5rem;
-  padding-right: 1rem;
-  font-size: 30px;
-  width: rem;
-  height: .3rem;
-  text-align: center;
-  text-decoration: none;
-}
+    .fa {
+      padding: 1rem;
+      padding-bottom: 1.5rem;
+      padding-right: 1rem;
+      font-size: 30px;
+      width: rem;
+      height: .3rem;
+      text-align: center;
+      text-decoration: none;
+    }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
+    .fa:hover {
+      opacity: 0.7;
+    }
 
-/* Set a specific color for each brand */
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
 
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
+    /* Twitter */
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
 
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
+    /* Instagram */
+    .fa-instagram {
+      background: #879BBA;
+      color: white;
+    }
 
-.fa-instagram {
-  background: #879BBA;
-  color: white;
-}
-
-.fa-github {
-  background: #5C79A5;
-  color: white;
-}
+    /* GitHub */
+    .fa-github {
+      background: #5C79A5;
+      color: white;
+    }
       
     
 
