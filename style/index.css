@@ -111,24 +111,145 @@ h1 {
       display: flex;
       justify-content: center;
     }
-    #bannerimg {
-      
-      background-image: url("https://images.unsplash.com/photo-1490131784822-b4626a8ec96a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+
+    #bannerimg {  
+      background-image: url("https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
       width: 100%;
-      height: 300px;
-      padding: 20px;
-      margin: 0px;
-      margin-bottom: 0px;
+      height: 16rem;
+      margin-bottom: 1rem;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: right;
       
     }
-  
+
+    .imgrow {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+    }
+
+    #img1 {
+      background-image: url("https://images.unsplash.com/photo-1498930133386-33ee20e8e71b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80");
+      width: 60rem;
+      height: 30rem;
+      margin-left: .2rem;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #img2 {
+      background-image: url("https://images.unsplash.com/photo-1438449805896-28a666819a20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+      width: 60rem;
+      height: 30rem;
+      margin-left: .3rem;
+      background-repeat: no-repeat;
+      background-position: top right;
+    }
+
+    #img3 {
+      background-image: url("https://images.unsplash.com/photo-1438803235109-d737bc3129ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2766&q=80");
+      width: 60rem;
+      height: 30rem;
+      margin-left: .3rem;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+
+    #img4 {
+      background-image: url("https://images.unsplash.com/photo-1418065514041-ace6539f65cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+      width: 60rem;
+      height: 30rem;
+      margin-left: .3rem;
+      background-repeat: no-repeat;
+      background-position: center top;
+    }
+
+    #sidetxt {
+      margin-left: 3rem;
+      padding-right: 10rem;
+      padding-left: 10rem;
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+      width: auto;
+      text-align: center;
+      font-size: 1rem;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+/* FOOTER STYLE */
+
+    footer {
+      margin-top: 1rem;
+      padding: 2rem;
+      background: #C5CCD7;
+    }
 
 
+    #fcontact {
+      display: flex; 
+      width: 6rem;
+      height: 1.5rem;
+      padding: .3rem;
+      padding-left: 1.4rem;
+      padding-top: 1rem;
+      margin-left: 40rem;
+      background: #6C83A9;
+      border-radius: 2px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      border: 3px double #6D89C1;
+      box-shadow: 5px 5px 5px #9AA0AB;
+    }
 
+.social {
+  margin-top: 1rem;
+  margin-left: 38rem;
+  margin-right: 10rem;
+  background: #C5CCD7;
+}
+
+.fa {
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1rem;
+  font-size: 30px;
+  width: rem;
+  height: .3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #879BBA;
+  color: white;
+}
+
+.fa-github {
+  background: #5C79A5;
+  color: white;
+}
       
-   
+    
 
 
 
