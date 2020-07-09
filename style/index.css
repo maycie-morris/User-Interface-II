@@ -1,1 +1,116 @@
 /* Add CSS styling here */
+
+/* INDEX CSS */
+
+/* PAGE CSS */
+
+* {
+  max-width:100%;
+  background-color: #D4DAE7;
+}
+
+/* Name Style */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: .1rem;
+    width: 100%;
+    margin: 3 auto;
+}
+
+/* Nav Buttons */
+
+    .topnav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+
+    #home {
+      display: inline-block;
+      border-radius: 2px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      margin-right: 1rem;
+      padding: 1rem;
+      background: #586172;
+      border: 3px double #6D89C1;
+      box-shadow: 5px 5px 5px #9AA0AB;
+    }
+
+    #about {
+      display: inline-block;
+      border-radius: 2px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      margin-right: 1rem;
+      padding: 1rem;
+      background: #5D6A84;
+      border: 3px double #66789C;
+      box-shadow: 5px 5px 5px #9AA0AB;
+    }
+
+    #contact {
+      display: inline-block;
+      border-radius: 2px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      margin-right: 1rem;
+      padding: 1rem;
+      background: #66789C;
+      border: 3px double #5D6A84;
+      box-shadow: 5px 5px 5px #9AA0AB;
+    }
+
+    #projects {
+      display: inline-block;
+      border-radius: 2px;
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      margin-right: 1rem;
+      padding: 1rem;
+      background: #6D89C1;
+      border: 3px double #586172;
+      box-shadow: 5px 5px 5px #9AA0AB;
+    }
+
+
+/* h2 Style */
+
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      font-family: "FreeMono", monospace;
+      width: 100%;
+      margin: 3 auto;
+      margin-top: 2rem;
+    }
+
+
+/* Body Style */
+
+    #aboutme {
+      display: flex;
+      margin: 2% 10%;
+      font-size: 1rem;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+
+
+      
+   
+
+
+
