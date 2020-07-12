@@ -17,9 +17,10 @@ h1 {
     font-family: "Courier New", Courier, monospace;
     letter-spacing: .1rem;
     width: 100%;
-    margin: 3 auto;
-}
-
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+} 
 /* Nav Buttons */
 
     .topnav {
@@ -30,9 +31,6 @@ h1 {
     }
 
     #home {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
@@ -45,9 +43,6 @@ h1 {
     }
 
     #about {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
@@ -60,30 +55,23 @@ h1 {
     }
 
     #contact {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
       border-radius: 2px;
       color: white;
       text-decoration: none;
       text-align: center;
       margin-right: 1rem;
-      padding: 1rem;
+      padding: 1rem; 
       background: #66789C;
       border: 3px double #5D6A84;
       box-shadow: 5px 5px 5px #9AA0AB;
     }
 
     #projects {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      border-radius: 2px;
       color: white;
       text-decoration: none;
       text-align: center;
       margin-right: 1rem;
-      padding: 1rem;
+      padding: 1rem; 
       background: #6D89C1;
       border: 3px double #586172;
       box-shadow: 5px 5px 5px #9AA0AB;
@@ -133,9 +121,9 @@ h1 {
     .imgrow {
       display: flex;
       flex-direction: row;
-      justify-content: left;
     }
 
+    
     #img1 {
       background-image: url("https://images.unsplash.com/photo-1498930133386-33ee20e8e71b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1494&q=80");
       width: 60rem;
@@ -224,7 +212,7 @@ h1 {
       padding-bottom: 1.5rem;
       padding-right: 1rem;
       font-size: 30px;
-      width: rem;
+      width: 1rem;
       height: .3rem;
       text-align: center;
       text-decoration: none;
@@ -258,6 +246,144 @@ h1 {
       color: white;
     }
       
+
+    /* RESPONSIVE DESIGN */
+
+    @media(max-width: 800px) {
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      .topnav {
+        flex-direction: column;
+        width: 18%;
+        padding-left: 17rem;
+      }
+
+      .imgrow {
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        justify-content: center;
+      }
+
+      #img1 {
+        height: 28rem;
+        width: 18rem;
+        margin-bottom: 2rem;
+      }
+
+      #img2 {
+        height: 28rem;
+        width: 18rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      #img3 {
+        height: 28rem;
+        width: 18rem;
+      }
+
+      #img4 {
+        height: 28rem;
+        width: 18rem;
+        margin-left: 2rem;
+      }
+
+      #sidetxt {
+        height: 5rem;
+        width: 18rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      } 
+
+      #fcontact {
+      width: 15%;
+      padding: .5rem;
+      padding-left: 1rem;
+      margin-left: 16rem;
+      }
+
+      .social {
+        margin-top: 1rem;
+        margin-left: 13.5rem;
+      }
+
+
+
+    @media(max-width: 500px) {
+
+      h1 {
+        flex-flow: row wrap;
+        font-size: 3rem;
+      } 
+
+      .topnav {
+        flex-direction: column;
+        width: 25%;
+        padding-left: 38%;
+      }
+
+      .imgrow {
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        justify-content: center;
+      }
+
+      #img1 {
+        height: 28rem;
+        width: 13rem;
+        margin-bottom: 2rem;
+      }
+
+      #img2 {
+        height: 28rem;
+        width: 13rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      #img3 {
+        height: 28rem;
+        width: 13rem;
+      }
+
+      #img4 {
+        height: 28rem;
+        width: 13rem;
+        margin-left: 2rem;
+      }
+
+      #sidetxt {
+        height: 5rem;
+        width: 13rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      } 
+
+      #fcontact {
+      width: 20%;
+      padding: .5rem;
+      padding-left: 1rem;
+      margin-left: 11rem;
+      }
+
+      .social {
+        border: 1 px solid red;
+        margin-top: 1rem;
+        margin-left: 4rem;
+      }
+
+      .fa {
+        width: .3rem;
+        height: .1rem;
+      }
+    
     
 
 
