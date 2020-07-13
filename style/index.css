@@ -393,9 +393,7 @@ h1 {
     
     }
 
-   
-
-    /* EXTRA */
+    /* iPhone Breakpoint */
 
     @media(max-width: 365px) {
 
@@ -474,3 +472,5 @@ h1 {
       }
 
     }
+
+
