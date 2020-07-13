@@ -258,7 +258,7 @@ h1 {
       .topnav {
         flex-direction: column;
         width: 18%;
-        padding-left: 17rem;
+        padding-left: 41%;
       }
 
       .imgrow {
@@ -301,17 +301,18 @@ h1 {
       } 
 
       #fcontact {
-      width: 15%;
+      width: 13%;
       padding: .5rem;
-      padding-left: 1rem;
-      margin-left: 16rem;
+      padding-left: 1.5rem;
+      margin-left: 44%;
       }
 
       .social {
         margin-top: 1rem;
-        margin-left: 13.5rem;
+        margin-left: 38.5%;
       }
 
+    }
 
 
     @media(max-width: 500px) {
@@ -325,11 +326,11 @@ h1 {
         flex-direction: column;
         width: 25%;
         padding-left: 38%;
+        
       }
 
       .imgrow {
         flex-wrap: wrap;
-        flex-shrink: 1;
         justify-content: center;
       }
 
@@ -370,21 +371,93 @@ h1 {
       width: 20%;
       padding: .5rem;
       padding-left: 1rem;
-      margin-left: 11rem;
+      margin-left: 39%;
       }
 
       .social {
-        border: 1 px solid red;
+        border: 1 px solid green;
         margin-top: 1rem;
-        margin-left: 4rem;
+        margin-left: 37%;
+        margin-right: 37%;
       }
 
       .fa {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid red;
         width: .3rem;
         height: .1rem;
       }
     
     
+    }
+
+    /* EXTRA JUST FOR MYSELF */
+
+    @media(min-width: 375px) and (max-width: 767px) {
+
+      h1 {
+        font-size: 1rem;
+      }
+
+      .topnav {
+        flex-direction: column;
+        width: 18%;
+        padding-left: 41%;
+      }
+
+      .imgrow {
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        justify-content: center;
+      }
+
+      #img1 {
+        height: 28rem;
+        width: 18rem;
+        margin-bottom: 2rem;
+      }
+
+      #img2 {
+        height: 28rem;
+        width: 18rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      #img3 {
+        height: 28rem;
+        width: 18rem;
+      }
+
+      #img4 {
+        height: 28rem;
+        width: 18rem;
+        margin-left: 2rem;
+      }
+
+      #sidetxt {
+        height: 5rem;
+        width: 18rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      } 
+
+      #fcontact {
+      width: 13%;
+      padding: .5rem;
+      padding-left: 1.5rem;
+      margin-left: 44%;
+      }
+
+      .social {
+        margin-top: 1rem;
+        margin-left: 38.5%;
+      }
+
+    }
 
 
 
