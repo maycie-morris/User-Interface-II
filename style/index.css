@@ -397,7 +397,7 @@ h1 {
 
     /* EXTRA */
 
-    @media(max-width: 360px) {
+    @media(max-width: 365px) {
 
       h1 {
         flex-flow: row wrap;
