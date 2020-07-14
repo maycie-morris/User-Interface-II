@@ -395,7 +395,7 @@ h1 {
 
     /* iPhone Breakpoint */
 
-    @media(max-width: 365px) {
+    @media(max-width: 375px) {
 
       h1 {
         flex-flow: row wrap;
@@ -408,8 +408,8 @@ h1 {
 
       .topnav {
         flex-direction: column;
-        width: 32%;
-        padding-left: 37%;
+        width: 40%;
+        padding-left: 32%;
         
       }
 
